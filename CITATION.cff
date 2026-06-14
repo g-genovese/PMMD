@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "PMMD — Maximal Mutual Determination: from a Qubit System to the Standard Model via E8 Foam"
+message: "If you use this software or framework, please cite the manuscript."
+type: software
+authors:
+  - family-names: Genovese
+    given-names: Gianluca
+version: "6.0"
+date-released: "2026-06-14"
+license: MIT
+repository-code: "https://github.com/<your-username>/pmmd-framework"
+abstract: >
+  Code and manuscript for the PMMD framework: a derivation programme from a
+  qubit system to Standard Model phenomenology via an E8 foam, including
+  percolation criticality, the Bombelli-Sorkin dimension, V112/Koide
+  phenomenology, the bond-bias RG, and the dark sector. v6.0 adds the M-free discrete
+  relational action (no free continuous parameter), the continuum-limit bridge
+  theorem, and discrete chain uniqueness with the SIC formalisation of determination;
+  the primordial value Omega_prim=2pi/3 and all derived scales are unchanged.
+  Work in progress.

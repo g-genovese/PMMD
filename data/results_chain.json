@@ -1,0 +1,22 @@
+{
+  "chain": "phi_0 -> C3 -> K4 -> cluster -> 600-cell -> 2I -> E8-roots -> E8-lattice -> foam",
+  "paper_refs": ["eq:chain-intro", "prop:v6-C3-phase", "ch7:thm:mckay"],
+  "minimal_unit": "K4 = the qubit SIC: 4 nodes = 4 states = 1 qubit (4 Bloch vectors of one Bloch sphere; pairwise fidelity 1/3, sum n = 0)",
+  "seed": "C3 = 3 of the 4 SIC states (the minimal phase-carrying loop; 2-cycles have gamma = 0)",
+  "tetrahedral_growth_origin": "the d^2=4 cap (Gerzon bound) blocks enlarging the single-qubit SIC, so it REPLICATES -> tetrahedral aggregation",
+  "two_routes_to_E8": {
+    "constructive": "tetrahedral growth -> 5-tet cluster (deficit) -> 600-cell on S3 -> 2I -> McKay -> E8 root system",
+    "static_self_duality": "maximal mutual determination = relational completeness = self-duality (Lambda=Lambda*) -> even unimodular -> dimension 8 -> E8 (unique)",
+    "agreement": "forced from both ends"
+  },
+  "key_invariants": {
+    "Omega_prim": "+/- 2 pi / 3 (minimal Z3 charge on the 3-cycle; the datum the chain propagates -> chirality, generations, mass)",
+    "golden_ratio_phi": 1.618033988749895,
+    "epsilon": "phi^-2",
+    "lambda_eq_pc": "~1/175 (per-trial 1/p_c: L=8 170.83, L=10 172.04, L=12 172.55)",
+    "coordination_z": 240,
+    "ell_star_over_ell_P": "2 phi^5 ~ 22.18",
+    "mu9_alg": "1/(4 phi^6)",
+    "generations": "|Q| = 3 (overlap-Dirac index = Q)"
+  }
+}

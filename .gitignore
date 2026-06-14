@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Large distributed-run outputs (commit via Git LFS or release assets instead)
+*.npz
+*.h5
+# (keep small JSON in data/; ignore very large raw dumps)
+*_raw_dump.json

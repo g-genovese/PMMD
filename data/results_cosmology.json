@@ -1,0 +1,21 @@
+{
+  "paper_refs": ["sec:Lambda-refinement", "conj:factor-four-cosmological", "thm:omega-DM-heavy-tailed", "cor:PBH-mass-spectrum"],
+  "cosmological_constant_Lambda_MP2": {
+    "observed": 1.1e-122,
+    "V112_only":        {"value": 4.17e-123, "c_W": "7/15", "factor_from_obs": 2.64, "stratum": 5, "note": "structurally derived baseline; residual factor is the universal mu9 algebra-to-geometry projection (intrinsic precision ~4, same coefficient as eta_B)"},
+    "V112_plus_58":     {"value": 6.33e-123, "c_W": "17/24", "factor_from_obs": 1.74, "redundant": true, "ref": "cor:V112-W6-decomposition", "note": "redundant alternative geometric reading of the mu9 residual, not independent support; the A2-Coxeter identification of the 58 is itself Stratum 1"},
+    "full_E8_sampling": {"value": 8.94e-123, "c_W": "1", "factor_from_obs": 1.23, "redundant": true, "note": "redundant alternative reading of the mu9 residual"},
+    "residual_factor":  {"value": "phi^2 = 2.618 (matches observed factor 2.638 to 0.7%)", "mechanism": "integer-rounding of the continuous horizon count N: unrounded N=72.75 gives (7/15)*phi^-582 = 1.09e-122, matching observation; equivalently exactly one single-phi inflation step (a quarter of a phi^4 rung)", "status": "quarter-step itself open (a why-now phase, not yet derived)", "coarse_bound": "also within the mu9 projection precision ~4, but phi^2 is the sharp account"},
+    "form": "Lambda = c_W * phi^(-8 N), N = 73 Fibonacci-substitution iterations from ell* to the cosmic horizon; phi^(-8N) = 8.94e-123"
+  },
+  "baryon_asymmetry_eta_B": {
+    "observed": 6.12e-10, "observed_err": 0.038e-10,
+    "algebraic_mu9": {"value": 2.38e-9, "factor_from_obs": "~4"},
+    "ratio_prediction": {"eta_B_over_J_CKM": 1.99e-5, "eta_B": 6.1e-10, "note": "eta_B/J_CKM = p_c * mu9_cosmo; matches observed with current Jarlskog"}
+  },
+  "dark_sector": {
+    "Omega_DM_over_Omega_B": {"observed": 5.4, "framework": "typical ~2-5% outcome of the cluster-merger random walk (heavy-tailed), = V(tau=-1)/V(tau=+1)", "regional_variance": [0.10, 0.20]},
+    "PBH_mass_spectrum_Msun": [100, 100000], "note": "intermediate-mass; consistent with GW190521 (~150 Msun)"
+  },
+  "photon_to_baryon": {"n_gamma_over_n_B": 1.7e9, "match": "~10%"}
+}

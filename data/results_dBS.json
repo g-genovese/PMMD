@@ -1,0 +1,15 @@
+{
+  "quantity": "Bombelli-Sorkin causal-set combinatorial dimension d_BS of the E8 foam",
+  "paper_refs": ["rem:dBS-cutproject-v53", "rem:dBS-growth-v53", "rem:coherence-lorentzian-v53", "sec:percolation-V112 (methodological note on the retired Sim C)"],
+  "target": 4,
+  "methods": {
+    "ideal_cutproject_boxcount":   {"d_BS": 3.85, "note": "ideal E8 icosian golden-ratio projection to 4D, box-counting", "script": "src/dimension_dBS/cutproject_e8_dBS.py", "stratum": 3},
+    "ideal_cutproject_longchain":  {"d_BS_range": [3.75, 3.85], "note": "longest-chain, structurally-fixed light-cone aperture c=ell*/tau*", "script": "src/dimension_dBS/cutproject_e8_dBS.py", "stratum": 3},
+    "ideal_cutproject_FSS":        {"d_BS": 4.06, "note": "finite-size extrapolation; least biased estimator", "script": "src/dimension_dBS/cutproject_e8_dBS.py", "stratum": 3},
+    "growth_ensemble_mature_foam": {"d_BS": 3.97, "bootstrap_CI": [3.81, 4.15], "trials": 40, "note": "framework growth dynamics (seed C3, tetrahedral-balance admission, growth-order causal DAG) through the same cut-and-project; THE Stratum-2 support", "script": "src/dimension_dBS/growth_e8_dBS.py", "stratum": 2},
+    "growth_plus_coherent_phase":  {"d_BS_range": [3.6, 3.9], "limit": "-> 4 as phase tilt alpha -> 0", "script": "src/dimension_dBS/growth_e8_phase_dBS.py", "stratum": 3},
+    "growth_incoherent_control":   {"d_BS": 1.9, "note": "incoherent control: collapses (shows coherence is what yields 4D)", "script": "src/dimension_dBS/growth_e8_phase_dBS.py"},
+    "RETIRED_percolation_at_pc":   {"d_BS": 3.6, "note": "partial-order probe at the bare critical density p_c (the originally-planned Sim B/C): measures the FRACTAL CRITICAL CLUSTER, the wrong object for the smooth Lorentzian order. RETIRED as the d_BS probe.", "script": "retired/sim_c_cutproject_dBS.py", "status": "retired"}
+  },
+  "reading": "The macroscopic 4D Lorentzian causal order is carried by the MATURE, over-percolated foam (d_BS ~ 4), not the sparse critical cluster at p_c (fractal d_BS ~ 3.6). The remaining numerical target is the mature foam's full Poisson universality (interval-cardinality ratios N2/N3, N3/N4)."
+}

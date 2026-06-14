@@ -1,0 +1,15 @@
+{
+  "quantity": "Koide ratio Q_K = (sum m)/(sum sqrt m)^2 of the foam-soliton mass operators",
+  "paper_refs": ["rem:gauge-overlap-generations-v53", "thm:koide-identity", "rem:koide-equipartition-v53"],
+  "lepton_target": 0.6666666666666666,
+  "angle_theta": "2/9 (algebraic theorem: SU(3) Casimir C2(3)/(2 h^vee))",
+  "value_status": "numerically supported at ~1% in the 2D continuum (Stratum 2); 3D Hopfion remains as cross-check",
+  "operators_continuum_Linf": {
+    "local_higgs_n3":        {"Q_K_inf": 0.356, "winding_sensitive": false, "note": "local Higgs overlap baseline; stays near degenerate 1/3"},
+    "flux":                  {"Q_K_inf": 0.40,  "winding_sensitive": true},
+    "connection_magnitude":  {"Q_K_inf": 0.674, "winding_sensitive": true, "deviation_from_2_3": "+1.1%", "model_spread": [0.67, 0.69], "note": "the winding-sensitive operator; converges to 2/3"}
+  },
+  "lattice_scan": {"L_values": [64,96,128,160,192,224,256,288,320], "extrapolation": "Q_K(L) = Q_inf + c/L over valid (n_zero=|Q|) points", "Q_at_L20_best": 0.51},
+  "soliton_zero_modes": {"Q_K": [0.41, 0.45], "note": "energy-minimising axially-symmetric / Z3-lobed solitons give ~0.41-0.45, NOT 2/3; the value is the equal-weight (coherence) normalisation, a different variational statement", "stratum": "open as a soliton output"},
+  "scripts": ["src/flavour/pmmd_koide_hpc.py", "src/flavour/extrapolate_koide.py", "src/flavour/koide_mass_operator.py"]
+}
