@@ -12,17 +12,26 @@ phenomenology, the bond-bias RG runs, the τ-demarcation / dark-sector statistic
 and the E₈→H₄ cut-and-project geometry.
 
 > **Status.**<br>
-> This is **v6.0, a work in progress.**<br>
-> v5.2 is the latest version previously archived on Zenodo; v6.0 is the current release.<br>
-> **New in v6.0:** the manifestly M-free discrete relational action (both
-> couplings fixed: θ=π from spin-½, β→∞ from maximal mutual determination, no
-> free continuous parameter); the continuum-limit bridge theorem (rigorous d=2,
-> asymptotic-safety d=4); discrete chain-uniqueness with the SIC formalisation of
-> determination (K₄ = the qubit SIC tetrahedron). The primordial value
-> Ω_prim = ±2π/3 — the minimal Z₃ topological charge on the 3-cycle (k=1), the
-> Pancharatnam/phase-balance datum the chain propagates and that carries the
-> chirality — and every derived scale are **unchanged**. See
-> `src/phenomenology/verify_sic_geometry.py`. The framework is developed under an explicit
+> This is **v7.0, a work in progress.**<br>
+> v6.0 is the latest version previously archived on Zenodo; v7.0 is the current release.<br>
+> **New in v7.0:** the discrete relational action made **operative** (δS = 0 as
+> the working principle; D = 3/4 derived by granularity-forced self-counting
+> stationarity) and the **flavour sector closed through it**: the full CKM from
+> the electroweak gateway with every input derived at leading order (the
+> excursion-curvature gaps Δ_p = 3·M_y(ρ_p), Δ₅ = 4/3 exact in form; a
+> zero-free-parameter CKM at the 3–15% level, χ²/dof = 0.55 at the data-pinned
+> refinements; CP structurally necessary, branch data-sealed); the neutrino
+> oscillation sector at **zero parameters** from derived constants (χ² = 1.42,
+> sin δ_CP = −1 exact); colour-flux census laws from 1.46×10¹⁰ lattice loops
+> (exact quantisation Φ ∈ (2/√3)ℤ, κ = 4π/(3√3), unit-diffusivity ⟨q²⟩ ≈ A at
+> 29.6σ); three exact flavour–gauge bridges and the (α_s(M_Z), √σ) c-dictionary;
+> scheme covariance (the golden inflation as renormalisation group); and the
+> honest ledger of **44 adjudications, 11 self-inflicted**. Also included: the
+> four v6.1 working-label sharpenings (self-duality via Mordell; the intrinsic
+> Stage 4–5 reformulation; the two coherence thresholds; the Koide value
+> re-grounded as maximal shared indetermination). The primordial value
+> Ω_prim = ±2π/3 and every derived scale are **unchanged**. See the paper's
+> closing *Predictions and named deciders* summary. The framework is developed under an explicit
 > *epistemic stratification* (Stratum 1 = rigorous; Stratum 2 = theorem with
 > distributed/numerical proof; Stratum 3 = structural articulation; Stratum 4–5 =
 > heuristic/order-of-magnitude). The code below supports specific claims at the
@@ -36,8 +45,8 @@ and the E₈→H₄ cut-and-project geometry.
 ```
 pmmd-framework/
 ├── paper/                     Manuscript (LaTeX source + PDF)
-│   ├── PMMD_v6.0.tex
-│   └── PMMD_v6.0.pdf
+│   ├── PMMD_v7.0.tex
+│   └── PMMD_v7.0.pdf
 ├── src/                       ALL code, grouped by topic
 │   ├── flavour/               Koide (HPC + extrapolation), V₁₁₂, generations, PMNS
 │   ├── gauge/                 SU(5)/SO(10)/SM identification (X-charge, Berry split, spinor)
@@ -143,7 +152,7 @@ result sets.
 
 ## Citation
 
-If you use this work, please cite the manuscript (`paper/PMMD_v6.0.pdf`) and,
+If you use this work, please cite the manuscript (`paper/PMMD_v7.0.pdf`) and,
 once published, the corresponding DOI. See `CITATION.cff`.
 
 ## License

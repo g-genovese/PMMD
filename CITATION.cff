@@ -5,16 +5,18 @@ type: software
 authors:
   - family-names: Genovese
     given-names: Gianluca
-version: "6.0"
-date-released: "2026-06-14"
+version: "7.0"
+date-released: "2026-07-18"
 license: MIT
-repository-code: "https://github.com/<your-username>/pmmd-framework"
+repository-code: "https://github.com/g-genovese/PMMD"
 abstract: >
   Code and manuscript for the PMMD framework: a derivation programme from a
   qubit system to Standard Model phenomenology via an E8 foam, including
   percolation criticality, the Bombelli-Sorkin dimension, V112/Koide
-  phenomenology, the bond-bias RG, and the dark sector. v6.0 adds the M-free discrete
-  relational action (no free continuous parameter), the continuum-limit bridge
-  theorem, and discrete chain uniqueness with the SIC formalisation of determination;
-  the primordial value Omega_prim=2pi/3 and all derived scales are unchanged.
-  Work in progress.
+  phenomenology, the bond-bias RG, and the dark sector. v7.0 makes the discrete relational action operative (deltaS = 0; D = 3/4
+  derived) and closes the flavour sector through it: the full CKM from the
+  electroweak gateway with every input derived at leading order, the neutrino
+  oscillation sector at zero parameters, colour-flux census laws from 1.5e10
+  lattice loops, three exact flavour-gauge bridges, and an explicit adjudication
+  ledger (44 falsification tests, 11 self-inflicted). No free continuous
+  parameter at the foundational level. Work in progress.
